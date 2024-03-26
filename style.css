@@ -1,0 +1,75 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-weight: bolder;
+}
+header {
+    background-color: #c5ce5f;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    top: 0;
+    z-index: 1000;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: color 0.7s;
+}
+header nav ul li a:hover {
+    color: cyan;
+    text-decoration: underline;
+}
+section {
+    padding: 60px 30px;
+    text-align: center;
+}
+h1 {
+    position: relative;
+    display: inline-block;
+}
+#home {
+    background-color: rgb(211, 127, 96);
+    border-radius: 20px;
+}
+#menu {
+    background-color: rgb(193, 98, 98);
+    color: aliceblue;
+    border-radius: 30px;
+}
+#reservation a {
+    text-decoration: none;
+}
+#reservation {
+    background-color: blueviolet;
+    border-radius: 35px;
+    color: aliceblue;
+}
+#about {
+    background-color: darkgrey;
+    color: black;
+    border-radius: 40px;
+}
+
+#gallery {
+    background-color: blanchedalmond;
+    color: darkslategrey;
+    border-radius: 45px;
+}
+
+    
+img{
+    height: 250px;
+}
+#contact {
+    background-color: bisque;
+    color: cornflowerblue;
+    border-radius: 50px;
+}
